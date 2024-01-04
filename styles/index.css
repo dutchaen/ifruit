@@ -1,0 +1,94 @@
+* {
+    font-family: 'NimbusSanLRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: darkgray;
+    color: white;
+    padding: 10px;
+}
+
+.gta-message {
+    color: black;
+    font-size: 25px;
+}
+
+.gta-cell-phone-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: 3s fadein;
+    margin-top: 160px;
+}
+
+.gta-cell-phone-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.gta-cell-phone-option {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    margin: 10px;
+    border-radius: 0px;
+    transition: 0.6s;
+    color: black;
+    font-size: 17px; 
+}
+
+@keyframes fadein {
+    from { opacity: 0%; }
+    to {opacity: 100%; }
+}
+
+@keyframes fadeout {
+    from { opacity: 0%; }
+    to {opacity: 100%; }
+}
+
+.gta-cell-phone-option:hover {
+    cursor: pointer; 
+}
+
+.gta-cell-phone-option[character_name="michael"] {
+    border: 2px solid darkblue;
+}
+
+.gta-cell-phone-option[character_name="michael"]:hover {
+    /* color: black; */
+    background-color: rgb(104, 104, 250);
+    border: 2px solid rgb(104, 104, 250);
+}
+
+.gta-cell-phone-option[character_name="trevor"] {
+    border: 2px solid darkred;
+}
+
+.gta-cell-phone-option[character_name="trevor"]:hover {
+    /* color: black; */
+    
+
+    background-color: rgb(255, 24, 24);
+    border: 2px solid rgb(255, 24, 24);
+}
+
+.gta-cell-phone-option[character_name="franklin"] {
+    border: 2px solid darkgreen;
+}
+
+.gta-cell-phone-option[character_name="franklin"]:hover {
+    /* color: black; */
+    background-color: darkgreen;
+}

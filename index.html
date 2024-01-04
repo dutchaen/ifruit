@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFruit</title>
+    <link rel="stylesheet" href="styles/index.css">
+
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/nimbus-sans-l" type="text/css"/>
+</head>
+<body>
+
+    <img src="http://getdrawings.com/free-icon-bw/gta-5-icon-14.png" width="50">
+
+    <div class="gta-cell-phone-screen">
+        
+        <p class="gta-message">Select a character...</p>
+        <div class="gta-cell-phone-options">
+            <div class="gta-cell-phone-option" character_name="michael" onclick="GoTo('michael.html');">
+                <img src="https://cdn.staticneo.com/w/gta5/thumb/Michael.png/560px-Michael.png" width="200">
+                <p>Michael</p>
+            </div>
+            <div class="gta-cell-phone-option" character_name="trevor" onclick="GoTo('trevor.html');">
+                <img src="https://cdn.staticneo.com/w/gta5/thumb/Trevor.png/280px-Trevor.png" width="200">
+                <p>Trevor</p>
+            </div>
+            <div class="gta-cell-phone-option" character_name="franklin" onclick="GoTo('franklin.html');">
+                <img src="https://cdn.staticneo.com/w/gta5/thumb/Franklin.png/280px-Franklin.png" width="200">
+                <p>Franklin</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function GoTo(path) {
+            window.location.href = path;
+        }
+    </script>
+    
+    
+</body>
+</html>

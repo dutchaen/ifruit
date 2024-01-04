@@ -1,0 +1,163 @@
+* {
+    font-family: 'NimbusSanLRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(140deg, darkgray, darkgreen);
+    color: white;
+    padding: 10px;
+}
+
+.gta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gta-franklin-phone {
+    border: 10px solid rgb(15, 39, 15);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+
+    height: 600px;
+    width: 330px;
+}
+
+.gta-phone-brand-bar {
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+
+
+    background-color: rgb(10, 10, 10);
+}
+
+.gta-phone-brand-bar hr {
+    margin-top: 30px;
+    margin-bottom: none;
+    width: 30%;
+}
+
+.gta-phone-brand-bar p {
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.gta-phone-brand-bar strong {
+    color: lightblue;
+    font-style: italic;
+    font-size: 20px;
+    
+}
+
+.gta-phone-screen {
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/originals/92/c5/b2/92c5b20f647f2b2d546ee54131f18148.gif");
+}
+
+
+.gta-phone-screen-info-header {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(169, 169, 169, 0.089);
+}
+
+.gta-phone-screen-info-header  hr {
+    width: 98%;
+    border-radius: 40px;
+}
+
+.gta-phone-screen-info-internals {
+    display: flex;
+    flex-direction: row;
+    padding: 2px;
+    gap: 92px;
+}
+
+.gta-phone-screen-info-battery-and-date {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+}
+
+.gta-phone-screen-info-battery-and-date p {
+    margin: 0px;
+    font-size: 14px;
+}
+
+
+.gta-phone-screen-info-time p {
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+
+.gta-phone-screen-info-emails-and-msgs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.gta-phone-screen-info-emails-and-msgs-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+
+.gta-phone-screen-info-emails-and-msgs p {
+    margin: 0px;
+}
+
+
+.gta-phone-screen-selected-app-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gta-phone-screen-selected-app-name p {
+margin: 0px;
+}
+
+.gta-phone-bottom-bar {
+    width: 100%;
+    height: 14%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    background-color: rgb(10, 10, 10);
+}
+
+.gta-phone-bottom-bar-buttons { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.gta-phone-bottom-bar-buttons img {
+    margin-top: 25px;
+    height: 25px;
+}
